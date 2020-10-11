@@ -1,9 +1,3 @@
-document.getElementById("wholebody").onmouseleave = function() {
-    disable_quiz();
-    
-};
-
-
 
 var firebaseConfig = {
     apiKey: "AIzaSyDIeAa9LCmYCOTiNPh2lBOOhuBiQ1i8tuQ",
@@ -328,6 +322,12 @@ function signOut(){
         })
     });
 }
+
+
+document.getElementById("wholebody").onmouseleave = function() {
+    disable_quiz();
+    
+};
 
 
 
