@@ -1,0 +1,135 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+#wholebody {
+    padding-bottom: 200px;
+}
+
+.divCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divCover img{
+    width: 70%;
+}
+a{
+    text-decoration: none !important;
+}
+#userFullNameError, #userQualificationError, #userLocationError, #userEmailError, #userPasswordError, #userSIEmailError, #userSIPasswordError, #userBioError, #editProfileForm{
+    display: none;
+}
+
+#userAvatar{
+    width: 120px;
+    height: 120px;
+}
+
+footer {
+    
+    position: absolute;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+#fa {
+    color: white;
+}
+
+.grid {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #cbcbcb;
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 15px -8px #000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: #01BBFF;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;    
+}
+ 
+#score {
+    color: #01BBFF;
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: #01BBFF;
+}
+ 
+ 
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #01BBFF;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 10px 10px 10px 0px;
+    padding: 15px 15px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+    
+}
+ 
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #2b2b2b;
+    font-size: 18px;
+    margin-bottom: -20px;
+}
+
+#video {
+    display: none;
+}
+
+#startQuiz {
+    
+}
+
+.results-div {
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+table {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+table, th, td {
+  border: 0.1rem solid orange;
+  border-collapse: collapse;
+  color: white
+}
+
+th, td {
+  padding: 0.7rem;
+}
+
+
+.timer {
+    padding-top: -10px;
+    
+    font-size: 30px;
+}
